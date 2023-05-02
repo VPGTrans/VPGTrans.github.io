@@ -3,3 +3,4 @@
 ----------
 Project page for [VPGTrans](https://vpgtrans.github.io/)
 
+The code is borrowed from [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4). Thanks for the excellent code!

@@ -152,20 +152,20 @@
                   </a>
               </span>
               
-              <span class="link-block">
-                      <a href="https://huggingface.co/spaces/##" target="_blank"
-                         class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        🤗
-                      </span>
-                      <span>Space</span>
-                    </a>
-                  </span>
+<!--              <span class="link-block">-->
+<!--                      <a href="https://huggingface.co/spaces/##" target="_blank"-->
+<!--                         class="external-link button is-normal is-rounded is-dark">-->
+<!--                      <span class="icon">-->
+<!--                        🤗-->
+<!--                      </span>-->
+<!--                      <span>Space</span>-->
+<!--                    </a>-->
+<!--              </span>-->
               
               <script>
                   window.addEventListener('load', function() {
                     const urls = [
-                      'https://d0cca87c15a2664218.gradio.live/',
+                      'https://2146e1a6d3f2bace4b.gradio.live',
                       // 'https://3228d8146e5c39b4be.gradio.live',
                       // 'https://60ac677ed79d2da927.gradio.live',
                       // 'https://c9cd51f7cae3c9fec1.gradio.live',
@@ -181,7 +181,7 @@
                 </script>
               
               <span class="link-block">
-                <a id="randomLink" href="https://d0cca87c15a2664218.gradio.live/" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                <a id="randomLink" href="https://2146e1a6d3f2bace4b.gradio.live" target="_blank" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="fa fa-play"></i>
                   </span>
@@ -189,15 +189,15 @@
                 </a>
               </span>
               
-              <span class="link-block">
-                <a href="https://youtu.be/###" target="_blank"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                  </a>
-              </span>
+<!--              <span class="link-block">-->
+<!--                <a href="https://youtu.be/###" target="_blank"-->
+<!--                   class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                    <i class="fab fa-youtube"></i>-->
+<!--                  </span>-->
+<!--                  <span>Video</span>-->
+<!--                  </a>-->
+<!--              </span>-->
               
               <!-- <span class="link-block">
                 <a href="https://huggingface.co/datasets/Vision-CAIR/cc_sbu_align" target="_blank"
@@ -209,15 +209,15 @@
                   </a>
               </span> -->
               
-              <span class="link-block">
-                <a href="https://huggingface.co/###" target="_blank"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="fa fa-laugh"></i>
-                  </span>
-                  <span>Model</span>
-                  </a>
-              </span>
+<!--              <span class="link-block">-->
+<!--                <a href="https://huggingface.co/###" target="_blank"-->
+<!--                   class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                    <i class="fa fa-laugh"></i>-->
+<!--                  </span>-->
+<!--                  <span>Model</span>-->
+<!--                  </a>-->
+<!--              </span>-->
               
             </div>
           </div>
@@ -254,7 +254,7 @@
 <script>
       window.addEventListener('load', function() {
         const urls = [
-          'https://d0cca87c15a2664218.gradio.live/',
+          'https://2146e1a6d3f2bace4b.gradio.live',
           // 'https://3228d8146e5c39b4be.gradio.live',
           // 'https://60ac677ed79d2da927.gradio.live',
           // 'https://c9cd51f7cae3c9fec1.gradio.live',
@@ -418,12 +418,19 @@
             <br>
             With our VPGTrans, one can build a novel high-performance VL-LLM based on any existing text-based LLMs and an existing VPG without much effort.
             <!-- Our work will show great potential in the multimodal LLM community. -->
+            <br>
+            <br>
+            The BLIP-2 traing cost can be reduced as:
             </b>
           </p>
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
+    <img id="model" width="100%" src="images/cost.png">
+       <!--  <h3 class="subtitle has-text-centered">
+          <p style="font-family:Times New Roman"></p>
+        </h3> -->
     <br>
     <br>
     <!-- Paper video. -->
@@ -533,6 +540,44 @@
     <br>
     <br>    
     <!--/ Paper video. -->
+        <div class="columns is-centered has-text-centered">
+      <div class="column is-six-fifths">
+        <h2 class="title is-3">Experiments</h2>
+        <div class="content has-text-justified">
+          <p>
+            <b>Our built BLIP-2 models</b>:
+          </p>
+          <ul>
+            <!-- <li>It has two types of queries (latent queries and text queries) and outputs (semantic outputs and pixel-level outputs).</li>
+            <li>It uses a single text encoder for all text corpus, ranging from class concepts, referring phrases to image captions.</li>
+            <li>It decouples image and text encoder to accomadate cross-image tasks (e.g., image-text retrieval) and within-image tasks (e.g., segmentation and captioning).</li> -->
+
+          </ul>
+        </div>
+        <img id="model" width="80%" src="images/blip2.png">
+       <!--  <h3 class="subtitle has-text-centered">
+          <p style="font-family:Times New Roman"></p>
+        </h3> -->
+        <br>
+        <br>
+
+        <div class="content has-text-justified">
+          <p>
+            <b>Our built VL-LLaMA</b>:
+          </p>
+        </div>
+        <img id="model" width="60%" src="images/vl-llama.png">
+
+        <br>
+        <br>
+
+      </div>
+    </div>
+    <br>
+    <br>
+
+
+
   </div>
 </section>
 
@@ -560,7 +605,7 @@
   <!-- Results. -->
   <div class="columns is-centered has-text-centered">
     <div class="column is-six-fifths">
-      <h2 class="title is-3">More Results</h2>
+      <h2 class="title is-3">VL-Vicuna Demo</h2>
     </div>
   </div>
   <!--/ Results. -->    
@@ -570,32 +615,11 @@
 
 <!-- <section class="section"> -->
 <div id="main">
-  <div class="box"><div class="pic"><img src="demos/ad_1.png" alt=""></div></div>
-  <div class="box"><div class="pic"><img src="demos/web_1.png" alt=""></div></div>
-  <div class="box"><div class="pic"><img src="demos/ad_2.png" alt=""></div></div>
-  <div class="box"><div class="pic"><img src="demos/cook_2.png" alt=""></div></div>
-  <div class="box"><div class="pic"><img src="demos/describe_2.png" alt=""></div></div>
-
-  <div class="box"><div class="pic"><img src="demos/fact_1.png" alt=""></div></div>
-  <div class="box"><div class="pic"><img src="demos/fact_2.png" alt=""></div></div>
-  <div class="box"><div class="pic"><img src="demos/fix_2.png" alt=""></div></div>
-  <div class="box"><div class="pic"><img src="demos/fun_1.png" alt=""></div></div>
-  <div class="box"><div class="pic"><img src="demos/fun_2.png" alt=""></div></div>
-
-  <div class="box"><div class="pic"><img src="demos/logo_1.png" alt=""></div></div>
-  <div class="box"><div class="pic"><img src="demos/op_1.png" alt=""></div></div>
-  <div class="box"><div class="pic"><img src="demos/op_2.png" alt=""></div></div>
-
-  <div class="box"><div class="pic"><img src="demos/wop_1.png" alt=""></div></div>
-  <div class="box"><div class="pic"><img src="demos/people_2.png" alt=""></div></div>
-  <div class="box"><div class="pic"><img src="demos/rhyme_2.png" alt=""></div></div>
-  <div class="box"><div class="pic"><img src="demos/story_1.png" alt=""></div></div>
-  <div class="box"><div class="pic"><img src="demos/story_2.png" alt=""></div></div>
-  
-  <div class="box"><div class="pic"><img src="demos/describe_1.png" alt=""></div></div>
-  <div class="box"><div class="pic"><img src="demos/people_1.png" alt=""></div></div>
-
-
+  <div class="box"><div class="pic"><img src="demos/p1.png" alt=""></div></div>
+  <div class="box"><div class="pic"><img src="demos/p2.png" alt=""></div></div>
+  <div class="box"><div class="pic"><img src="demos/p3.png" alt=""></div></div>
+  <div class="box"><div class="pic"><img src="demos/p4.png" alt=""></div></div>
+  <div class="box"><div class="pic"><img src="demos/p5.png" alt=""></div></div>
 </div>
 
 </section>
